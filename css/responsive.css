@@ -1,0 +1,70 @@
+@media (max-width: 1349px) {
+  .footer-container {
+    max-width: 95%;
+  }
+  .footer-block {
+    width: 25%;
+  }
+  .food-images {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section4-menu-block {
+    margin-top: 59px;
+  }
+
+  .menu-block:nth-child(2) {
+    flex-direction: column;
+  }
+  .menu-block:nth-child(3) {
+    margin-right: 57px;
+  }
+  .menu-block:nth-child(4) {
+    margin-bottom: 56px;
+  }
+
+  .menu-block:nth-child(6) {
+    margin-right: 56px;
+  }
+  .more-menu {
+    max-width: 800px;
+    width: 100%;
+    font-size: 40px;
+  }
+}
+@media (max-width: 1349px) {
+  .section3-mainheader {
+    font-size: 45px;
+  }
+  .section3-p {
+    font-size: 18px;
+  }
+  .section3-bg-image {
+    max-width: 700px;
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .header-bg {
+    height: 1000px;
+  }
+}
+@media (max-width: 970px) {
+  .header-bg {
+    height: 900px;
+  }
+  .section2-header {
+    margin-top: 76px;
+  }
+  .delivery-man-image {
+    max-width: 700px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  .section3-mainheader {
+    font-size: 40px;
+  }
+  .section3-p {
+    font-size: 15px;
+  }
+}
