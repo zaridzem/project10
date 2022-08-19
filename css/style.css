@@ -52,11 +52,14 @@
   margin: 143.8px 0 122px;
 }
 .header2 {
+  max-width: 375px;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: white;
   margin-bottom: 62px;
+  line-height: 40px;
 }
 .button-text::after {
   content: "\2192";
@@ -74,3 +77,59 @@
   line-height: 23px;
   text-transform: uppercase;
 }
+/* ends header (Section1) */
+/* starts section 2 */
+.section2-container {
+  max-width: 1365px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section2-header {
+  max-width: 642px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 152px;
+}
+.section2-main-header {
+  font-family: "Avengeance Mightiest Avenger", sans-serif;
+  font-size: 50px;
+  line-height: 90px;
+  color: #a80e0e;
+  text-align: center;
+}
+.section2-header2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 70px;
+  color: #382e36;
+  text-align: center;
+}
+.food-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.food-li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food-p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 70px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+}
+.active {
+  border: 1px solid white;
+  width: 248px;
+  border-radius: 5px;
+  filter: drop-shadow(0 15px 15px #707070);
+  box-shadow: 0 15px 15px 0 #000000;
+  cursor: pointer;
+  padding-top: 39px;
+}
+/* end section 2 */
